@@ -1,0 +1,29 @@
+.user-list {
+  
+  min-height: 100vh;
+  
+  > li {
+    padding: 15px 0;
+    border-bottom: 1px solid #7d60f5;
+  }
+}
+
+.centerNotUsers{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:column;
+}
+.header-table {
+  margin-bottom: 10px;
+  > ul {
+    display: flex;
+    justify-content: space-between;
+    > li {
+      width: calc(100% / 5); text-align: center; padding: 0 10px; font-weight: 600;
+      &:first-child { text-align: start; }
+      &:last-child { text-align: end; }
+    }
+  }
+}
+

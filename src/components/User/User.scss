@@ -1,0 +1,27 @@
+.product {
+  display: flex; flex-flow: row; justify-content: space-between;
+
+  >span { 
+    width: calc(100% / 4); text-align: center; padding: 0 10px;
+    &:first-child { text-align: start; } 
+    &:last-child { text-align: end; }
+  }
+}
+
+.edit{
+  color:  rgba(26,188,156,1);
+}
+
+.edit:hover{
+  border: 1px solid rgba(26,188,156,1);
+  color:  rgba(26,188,156,1);
+}
+
+.erase{
+  color: #ff9800;
+}
+
+.erase:hover{
+  border: 1px solid #ff9800;
+  color: #ff9800;
+}
